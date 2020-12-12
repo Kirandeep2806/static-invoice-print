@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#container{
+    min-height: 100vh;
+    display: flex;
+}
+.invoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background-color: #194375;
+}
+.invoice h1{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: "Candara";
+}
+.cards{
+    width: 80vw;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn_invoice{
+    text-decoration: none;
+}
+#btn_invoice p{
+    padding: 15px 10px;
+    text-align: center;
+    outline: none;
+    background-color: #194375;
+    font-family: "Candara";
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#btn_invoice p:hover{
+    outline: none;
+    border: 1px solid #194375;
+    color: #194375;
+    font-family: "Candara";
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+    box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.3);
+    transition-duration: .40s;
+}
+.page2_card_prepare{
+    width: auto;
+    height: 300px;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.18);
+}
+.search_bar{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+.search_bar input[type=text]{
+    outline: none;
+    width: 350px;
+    padding: 9px 15px;
+    border: 1px solid #1d75b3;
+}
+.search_bar button{
+    outline: none;
+    float: right;
+    padding: 10px 15px;
+    background-color: #1d75b3;
+    color: white;
+    cursor: pointer;
+}
+.table{
+    padding: 70px 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 78vw;
+}
+#header{
+    background-color: #eeeeee;
+}
+#pf{
+    color: #999999;
+}
+#pa{
+    color: #232323;
+}
+th{
+    color: #383836;
+    cursor: pointer;
+    font-weight: bold;
+}
+th, td{
+    font-size: 14.5px;
+    padding: 10px 12px;
+    text-align: left;
+    font-family: Calibri;
+}
+tr td input[type=button]{
+    border-radius: 3px;
+    color: white;
+    background-color: #1d75b3;
+    outline: none;
+    text-align: center;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+tr td input[type=button]:hover{
+    background-color: white;
+    color: #1d75b3;
+    transition-duration: .2s;
+}
